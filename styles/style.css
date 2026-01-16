@@ -25,6 +25,21 @@
 .dark-2 {
     color: rgba(66, 66, 66, 1);
 }
+
+.dark-3 {
+    color: rgba(114, 114, 114, 1);
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
 /* Shared style end */
 
 /* Navbar Section Start */
@@ -49,3 +64,75 @@
     text-decoration: none;
 }
 /* Navbar Section End */
+
+/* Banner Section Start */
+
+.banner-text-container {
+    max-width: 862px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 116px;
+}
+
+.banner-text-header {
+    font-size: 4rem;
+    line-height: 4.6rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.banner-text-container p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-bottom: 32px;
+}
+
+.banner-container img {
+    margin-top: 50px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+    max-height: 700px;
+    width: 100%;
+}
+/* Banner Section End */
+
+/* Responsive For Small Device Start */
+
+@media screen and (max-width: 576px) {
+    .navbar-container {
+        flex-direction: column;
+    }
+
+    .navbar-header {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .ul-link {
+        margin-left: 15px;
+    }
+
+    
+}
+
+/* Responsive For Small Device End */
+
+/* Responsive For Medium Device Start */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .navbar-container {
+        flex-wrap: wrap;
+    }
+
+    .navbar-header {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .ul-link {
+        margin-right: 15px;
+    }
+}
+
+
+/* Responsive For Medium Device End */
